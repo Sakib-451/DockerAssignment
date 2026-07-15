@@ -1,0 +1,18 @@
+View logs
+
+Command 
+
+Docker logs nginx-container 
+
+
+Follow logs in real time
+
+Command 
+
+Docker -f logs nginx-container 
+
+Save logs to a file
+
+Command 
+
+Docker logs nginx-container > nginx-logs.txt

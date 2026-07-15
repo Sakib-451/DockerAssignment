@@ -1,0 +1,23 @@
+docker container prune
+
+Removes all stopped containers to free up disk space.
+
+docker image prune
+
+Removes unused Docker images that are not associated with any running containers.
+
+docker network prune
+
+Removes all unused Docker networks.
+
+docker volume prune
+
+Removes unused Docker volumes to reclaim storage.
+
+docker system prune
+
+Removes unused containers, networks, dangling images, and build cache to free disk space.
+
+docker system df
+
+Displays the disk space used by Docker images, containers, volumes, and build cache.

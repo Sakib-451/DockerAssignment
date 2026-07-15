@@ -1,0 +1,5 @@
+Create a Docker volume.
+
+Command 
+
+docker run -it --name volume-container -v D:\dockerdata:/data ubuntu

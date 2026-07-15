@@ -1,0 +1,10 @@
+1. Downloaded and installed Docker Desktop.
+2. Started Docker Desktop.
+3. Verified Docker installation using docker--version.
+4. Checked Docker Engine using docker
+version.
+5. Verified Docker service using docker info.
+6. Successfully ran the hello-world container.
+7. Verified downloaded image using docker images.
+8. Verified created container using docker ps -a.
+ 

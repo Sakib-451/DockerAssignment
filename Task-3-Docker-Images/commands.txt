@@ -1,0 +1,116 @@
+1 -  Pull the image
+
+Command
+
+ docker pull nginx
+
+2 - Start a container
+
+Command
+
+docker run -itd --name nginx-container 8080:80 nginx
+
+3 -  Verify it is running
+
+Command
+ 
+Docker ps
+
+5 - Stop the container
+
+Command
+
+Docker stop nginx-container
+
+
+6 - Remove the container
+
+Command
+
+Docker rm nginx-container
+
+
+
+
+
+1 -  Pull the image
+
+Command
+
+ docker pull httpd
+2 - Start a container 3 -  Verify it is running
+
+Command
+
+1 - Docker run -itd --name nginx-container -p 8081:80 httpd
+2 - Docker  ps
+
+
+5 - Stop the container & 6 - Remove the container
+
+Command
+
+Docker stop httpd-container
+
+Docker rm httpd-container
+
+
+
+
+
+1 -  Pull the image
+
+Command
+
+docker pull redis 
+
+2 - Start a container 3 -  Verify it is running
+
+Command
+
+1 - Docker run -itd --name redis-container  
+2 - Docker  ps 
+
+
+5 - Stop the container & 6 - Remove the container
+
+Command 
+
+Docker stop redis-container
+
+Docker rm redis-container
+
+
+
+
+
+1 -  Pull the image
+
+Command
+
+docker pull postgres 
+
+
+2 - Start a container 3 -  Verify it is running
+
+Command
+
+1 - docker run -d --name postgres-container -e POSTGRES_PASSWORD=admin123 -p 5432:5432 postgres
+
+2 - Docker ps
+
+5 - Stop the container & 6 - Remove the container
+
+Command 
+
+Docker stop postgres-container
+
+Docker rm postgres-container 
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+
+Create a custom bridge network.
+Command 
+ 
+Docker network create my-network
+
+
+1 - Command 
+
+docker run -d --name nginx-container --network my-network nginx
+
+
+2 - command 
+
+docker run -d --name redis-container --network my-network redis
+

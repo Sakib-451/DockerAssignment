@@ -1,0 +1,30 @@
+Command 
+Docker inspect nginx-container 
+
+1 - Container ID
+
+A unique identifier assigned to every Docker container.
+
+ 2 - Image ID
+
+The unique SHA256 identifier of the Docker image used to create the container.
+
+3 - IP Address
+
+The internal IP address assigned to the container within the Docker network.
+
+4 - Mounted Volumes
+
+Displays the volumes attached to the container for persistent data storage.
+
+5 - Networks
+
+Shows the Docker network(s) the container is connected to.
+
+6 - Environment Variables
+
+Displays environment variables available inside the container.
+
+7 - Port Mapping
+
+Shows how host ports are mapped to container ports.
